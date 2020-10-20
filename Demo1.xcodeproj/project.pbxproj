@@ -13,6 +13,7 @@
 		7E4B6B7B2536D0AD0059277A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7E4B6B7A2536D0AD0059277A /* Preview Assets.xcassets */; };
 		7E4B6B862536D0AD0059277A /* Demo1Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E4B6B852536D0AD0059277A /* Demo1Tests.swift */; };
 		7E4B6B912536D0AD0059277A /* Demo1UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E4B6B902536D0AD0059277A /* Demo1UITests.swift */; };
+		7E5556BB253F176500BA206B /* music1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7E5556BA253F176500BA206B /* music1.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,7 +34,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		7E4B6B702536D0AA0059277A /* Demo1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Demo1.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7E4B6B702536D0AA0059277A /* FE3H.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FE3H.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7E4B6B732536D0AA0059277A /* Demo1App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Demo1App.swift; sourceTree = "<group>"; };
 		7E4B6B752536D0AA0059277A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		7E4B6B772536D0AD0059277A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -45,6 +46,7 @@
 		7E4B6B8C2536D0AD0059277A /* Demo1UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Demo1UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7E4B6B902536D0AD0059277A /* Demo1UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Demo1UITests.swift; sourceTree = "<group>"; };
 		7E4B6B922536D0AD0059277A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7E5556BA253F176500BA206B /* music1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = music1.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,7 +87,7 @@
 		7E4B6B712536D0AA0059277A /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				7E4B6B702536D0AA0059277A /* Demo1.app */,
+				7E4B6B702536D0AA0059277A /* FE3H.app */,
 				7E4B6B812536D0AD0059277A /* Demo1Tests.xctest */,
 				7E4B6B8C2536D0AD0059277A /* Demo1UITests.xctest */,
 			);
@@ -95,6 +97,7 @@
 		7E4B6B722536D0AA0059277A /* Demo1 */ = {
 			isa = PBXGroup;
 			children = (
+				7E5556BA253F176500BA206B /* music1.mp3 */,
 				7E4B6B732536D0AA0059277A /* Demo1App.swift */,
 				7E4B6B752536D0AA0059277A /* ContentView.swift */,
 				7E4B6B772536D0AD0059277A /* Assets.xcassets */,
@@ -133,9 +136,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		7E4B6B6F2536D0AA0059277A /* Demo1 */ = {
+		7E4B6B6F2536D0AA0059277A /* FE3H */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 7E4B6B952536D0AD0059277A /* Build configuration list for PBXNativeTarget "Demo1" */;
+			buildConfigurationList = 7E4B6B952536D0AD0059277A /* Build configuration list for PBXNativeTarget "FE3H" */;
 			buildPhases = (
 				7E4B6B6C2536D0AA0059277A /* Sources */,
 				7E4B6B6D2536D0AA0059277A /* Frameworks */,
@@ -145,9 +148,9 @@
 			);
 			dependencies = (
 			);
-			name = Demo1;
+			name = FE3H;
 			productName = Demo1;
-			productReference = 7E4B6B702536D0AA0059277A /* Demo1.app */;
+			productReference = 7E4B6B702536D0AA0059277A /* FE3H.app */;
 			productType = "com.apple.product-type.application";
 		};
 		7E4B6B802536D0AD0059277A /* Demo1Tests */ = {
@@ -221,7 +224,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				7E4B6B6F2536D0AA0059277A /* Demo1 */,
+				7E4B6B6F2536D0AA0059277A /* FE3H */,
 				7E4B6B802536D0AD0059277A /* Demo1Tests */,
 				7E4B6B8B2536D0AD0059277A /* Demo1UITests */,
 			);
@@ -234,6 +237,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7E4B6B7B2536D0AD0059277A /* Preview Assets.xcassets in Resources */,
+				7E5556BB253F176500BA206B /* music1.mp3 in Resources */,
 				7E4B6B782536D0AD0059277A /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -285,12 +289,12 @@
 /* Begin PBXTargetDependency section */
 		7E4B6B832536D0AD0059277A /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 7E4B6B6F2536D0AA0059277A /* Demo1 */;
+			target = 7E4B6B6F2536D0AA0059277A /* FE3H */;
 			targetProxy = 7E4B6B822536D0AD0059277A /* PBXContainerItemProxy */;
 		};
 		7E4B6B8E2536D0AD0059277A /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 7E4B6B6F2536D0AA0059277A /* Demo1 */;
+			target = 7E4B6B6F2536D0AA0059277A /* FE3H */;
 			targetProxy = 7E4B6B8D2536D0AD0059277A /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -546,7 +550,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		7E4B6B952536D0AD0059277A /* Build configuration list for PBXNativeTarget "Demo1" */ = {
+		7E4B6B952536D0AD0059277A /* Build configuration list for PBXNativeTarget "FE3H" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				7E4B6B962536D0AD0059277A /* Debug */,
